@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+
+ freeswitch_exporter:
+    image: freeswitch_exporter:1.0
+    container_name: freeswitch_exporter
+    restart: always
+    volumes:
+           - /etc/localtime:/etc/localtime:ro
+    command: /usr/local/bin/freeswitch_exporter --web.listen-address="192.168.2.195:9282" --freeswitch.scrape-uri="tcp://192.168.2.195:8021" --freeswitch.password="OmiCrm@987!@#87!@#"
+    network_mode: "host"
