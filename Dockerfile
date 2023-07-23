@@ -1,7 +1,7 @@
 # build
 FROM golang:1.18 as builder
 
-RUN git clone https://github.com/mroject/freeswitch_exporter.git
+RUN git clone https://github.com/buichihau/freeswitch_exporter.git
 
 WORKDIR /go/freeswitch_exporter
 
