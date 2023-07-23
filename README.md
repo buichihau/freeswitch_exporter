@@ -176,5 +176,4 @@ Dependencies will be fetched automatically.
 
 Feel free to send pull requests.
 
-Copyright (c) 2022 Zhang Lian Jun <z0413j@outlook.com>
-
+Copyright (c) 2023 Hau Bui Chi <buichihau98@gmail.com>
